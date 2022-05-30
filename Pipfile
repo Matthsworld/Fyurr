@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+environs = "*"
+python-dateutil = "==2.6.0"
+flask-moment = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+Babel = "*"
+psycopg2 = "*"
+flask-migrate = "*"
+flask-script = "*"
+alembic = "*"
+requirements-txt = "*"
+
+[requires]
+python_version = "3.7"
